@@ -1,0 +1,46 @@
+<RUGRAT>
+<logfilePath>log.txt</logfilePath>
+<urlFile>url.txt</urlFile>
+<useThreads>6</useThreads>
+<loadDisk>3</loadDisk>
+<loadNetworkInterface>10</loadNetworkInterface>
+<numberOfThreadedClasses>8</numberOfThreadedClasses>
+<noOfInterfaces>10</noOfInterfaces>
+<maxInterfacesToImplement>1</maxInterfacesToImplement>
+<minInheritanceDepth>4</minInheritanceDepth>
+<doReachabilityMatrix>no</doReachabilityMatrix>
+<maxValueForLoop>50</maxValueForLoop>
+<allowArray>yes</allowArray>
+<useQueries>false</useQueries>
+<maxNoOfMethodsPerInterface>4</maxNoOfMethodsPerInterface>
+<noOfClasses>100</noOfClasses>
+<maxAllowedMethodCalls>100</maxAllowedMethodCalls>
+<injectFilename>NewFile.txt</injectFilename>
+<password></password>
+<maximumArraySize>30</maximumArraySize>
+<dbName></dbName>
+<noOfInheritanceChains>1</noOfInheritanceChains>
+<probability>18</probability>
+<maxNestedIfs>5</maxNestedIfs>
+<maxInheritanceDepth>4</maxInheritanceDepth>
+<maxNoOfParametersPerMethod>5</maxNoOfParametersPerMethod>
+<dbDriver></dbDriver>
+<totalLOC>100000</totalLOC>
+<maxRecursionDepth>3</maxRecursionDepth>
+<dbUsername></dbUsername>
+<classNamePrefix>NischitTest</classNamePrefix>
+<maxNoOfClassFields>20</maxNoOfClassFields>
+<maxNoOfMethodsPerClass>20</maxNoOfMethodsPerClass>
+<recursionProbability>0</recursionProbability>
+<minNoOfParametersPerMethod>5</minNoOfParametersPerMethod>
+<intMaxValue>6000</intMaxValue>
+<queryFilename></queryFilename>
+<callType>MC02_1</callType>
+<allowIndirectRecursion>no</allowIndirectRecursion>
+<allowedTypes>
+	<type>int</type>
+	<type>long</type>
+	<type>String</type>
+	<type>Object</type>
+</allowedTypes>
+</RUGRAT>

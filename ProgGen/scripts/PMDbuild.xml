@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     April 30, 2011                                                        
+
+     PMD build file    
+     This build file runs PMD tool on RUGRAT generated program files.
+                   
+      ishtiaque.hussain@mavs.uta.edu (Ishtiaque Hussain)                                                                
+     ====================================================================== -->
+<project name="PMD build file" default="pmd">
+    <description>
+             This build file runs PMD tool on RUGRAT generated program files.
+    </description>
+		
+	<path id="pmd.classpath">
+    
+    <!--<fileset dir="D:\Rugrat Experiments\Tools\PMD\pmd-src\pmd-4.2.5\lib"> -->
+	<fileset dir="D:\RUGRAT\PMD\pmd-src\pmd-4.2.5\lib">	
+        <include name="*.jar"/>
+    </fileset> 
+	</path>
+
+<taskdef name="pmd" classname="net.sourceforge.pmd.ant.PMDTask" classpathref="pmd.classpath"/>
+
+	
+<target name="pmd">
+	<tstamp>
+	<format property="STAMP" pattern="hhmmss"/>
+	</tstamp>
+	
+	<!--MIN RULESET -->
+    <!--<pmd rulesetfiles="basic"> --> 
+	
+	<!--MAX RULESET -->
+	<pmd rulesetfiles = "basic,braces,clone,codesize,controversial,coupling,design,imports,naming,strictexception,strings,typeresolution,unusedcode" >
+        <formatter type="text" toFile="pmd_report_${STAMP}.txt" toConsole="true"/>
+        <!--<fileset dir="D:\Rugrat Experiments\Example Programs\1MLOC\TestPrograms\"> -->
+		<fileset dir="D:\RUGRAT\10KLOC-profiler\Experiment\10KLOC\Expr80\TestPrograms\">
+            <include name="**/*.java"/>
+        </fileset>
+    </pmd>
+</target>
+
+
+	
+
+</project>

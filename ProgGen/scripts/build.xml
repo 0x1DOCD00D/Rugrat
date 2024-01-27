@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     Feb 3, 2011 1:09:44 PM                                                        
+
+     RUGRAT build file    
+     This build file compiles RUGRAT generated source files and runs FindBugs on them
+                   
+      ishtiaque.hussain@mavs.uta.edu (Ishtiaque Hussain)                                                                
+     ====================================================================== -->
+<project name="RUGRAT build file" default="findbugs">
+    <description>
+            This build file compiles RUGRAT generated source files and runs FindBugs on them
+    </description>
+	<property name="FINDBUGS_HOME" value="K:\findbugs-1.3.9" />
+
+	<!-- target: init -->
+	    <target name="init" depends="clean">
+	    	<mkdir dir="bin-rugrat"/>
+			<copy file="config.xml" todir="../../" />
+		</target>
+	
+	<!-- target: rugrat -->
+	<target name="rugrat" depends = "init">
+		
+		<java jvmargs="-Xmx3584m" classpath="K:/java/ProgGen/bin" classname="edu.uta.cse.proggen.start.Start" />
+			
+	</target>
+	
+	<!-- target: compile -->
+    <target name="compile" depends="rugrat" description="This build file compiles 
+    	RUGRAT generated source files and puts them in 'bin-rugrat' directory">
+    	<copy todir="./TestPrograms/">
+    	    <fileset dir="../../TestPrograms"/>
+    	</copy>
+    	
+        <javac srcdir="TestPrograms" destdir="bin-rugrat"/> 
+    </target>
+	
+	<target name="log" depends="compile" description="Logs the resulting Reachability Matrix and cleans up" >
+		<delete file="../../config.xml" />	
+		<delete dir="../../TestPrograms" />
+		<copy file="../../ReachabilityMatrix.csv" tofile="ReachabilityMatrix.csv"/>
+		<delete file="../../ReachabilityMatrix.csv" />
+	</target>
+
+    
+	<!-- target: findbugs -->
+	
+	<path id="findbugs-jar">
+		<pathelement path="${FINDBUGS_HOME}/lib/findbugs-ant.jar" /> 
+	</path> 
+	<taskdef name="findbugs" classname="edu.umd.cs.findbugs.anttask.FindBugsTask" classpathref="findbugs-jar"/>
+	
+	<target name="findbugs" depends="log" description="Runs FindBugs on class files in 'bin-rugrat'" >
+		<findbugs home="${FINDBUGS_HOME}"
+	              output="xml:withMessages"  
+	              outputFile="FindBugsResult.xml"
+				  effort="max"
+				  reportlevel="low"
+				  jvmargs="-Xmx1536m" >
+	      <sourcePath path="TestPrograms" />
+	      <class location="bin-rugrat" />
+	    </findbugs>
+	  </target>
+	
+	
+	<!--Clean: delete generated bin-rugrat directory -->
+		<target name="clean">
+			<delete dir="bin-rugrat" />
+			<delete dir="TestPrograms" />
+			<delete dir="../../TestPrograms"/>
+			<delete file="../../Config.xml" />
+		</target>
+
+</project>

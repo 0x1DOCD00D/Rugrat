@@ -1,0 +1,10 @@
+select T_6_P_1 from T_6 where T_6_P_2 IN (6)  ;
+select T_10_P_1 from T_3,T_10 where T_10_P_6 IN ('g7prvodiklr6','1xilbf3p2tdok','1usfnu1790787','efirc6aqvcxm','uubspyn888f6','1i5ay4ovc455z','1ug8l89awqza4','1oh8rxy9rw5g4','g9byi36crq3y','vp6p3gif63xn','np8afcnbjfc2','1nhv7hkcaqahz','1223c55opvl8','1hu6dj6el65e9','x04ghdfh7di7','1thg2ukmlydus')  ;
+select T_4_P_2 from T_5,T_10,T_4,T_6,T_8,T_9 where T_5_P_3 IN (0,1,6,8,2,4,5,7,10,9,3,5,3,0,0,5) order by T_4_P_2 asc ;
+select T_1_P_2 from T_9,T_3,T_2,T_1,T_7,T_5 order by T_1_P_2 desc ;
+select T_3_P_7 from T_8,T_7,T_6,T_4,T_1,T_3 where T_6_P_5 NOT IN (6,7,3,6,2,0,0,10,6,3,8,1,1,10,4,9,3,8)  ;
+select T_9_P_1 from T_9,T_7,T_5  ;
+select T_4_P_7 from T_1,T_4,T_3,T_2,T_7,T_5,T_10,T_8,T_6  ;
+select T_8_P_3 from T_8  ;
+select T_4_P_0 from T_4,T_5,T_2,T_7,T_3,T_9,T_6 where T_2_P_1 || '1gxvc7r2rnpd7' and T_5_P_4 || 'g7i8p2tqket' and T_9_P_2 || '112azbw1np95o' or T_4_P_5 || '5vqzlenehrsu' and T_3_P_2 || 'jfi0d1gwu7n6' and T_3_P_9 || 'j5mqumq4ogwc' or T_9_P_0 || 'l0a6q33vsmp0' or T_7_P_4 || 'gbzj9sixbhwq' or T_5_P_5 || 'eh60lsy9r7t9' or T_2_P_0 || '9r2a4l4pu1cj' order by T_4_P_0 asc ;
+select T_5_P_8 from T_5  ;

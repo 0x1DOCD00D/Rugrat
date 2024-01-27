@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     Feb 10, 2011 3:54:15 PM                                                        
+
+     RUGRAT root build file    
+     This is the master build file that runs other build files to perform the experiments (overnight)
+                   
+     ishtiaque.hussain@mavs.uta.edu {Ishtiaque Hussain}                                                                
+     ====================================================================== -->
+<project name="RUGRAT root build file" default="default">
+    <description>
+            This build file runs other build files to run the experiments overnight
+    </description>
+
+    <!-- ================================= 
+          target: default              
+         ================================= -->
+    <target name="default" depends="depends" description="This build file runs other build files to run the experiments overnight">
+        
+    </target>
+
+    <!-- - - - - - - - - - - - - - - - - - 
+          target: depends                      
+         - - - - - - - - - - - - - - - - - -->
+    <target name="depends">
+    	<!--ant dir="50KLOC/Expr1" output="log.txt" / --> 
+		<!--ant dir="50KLOC/Expr2" output="log.txt" /--> 		
+		<!--ant dir="50KLOC/Expr3" output="log.txt" /--> 
+		<!--ant dir="50KLOC/Expr4" output="log.txt" /--> 
+		<!--ant dir="50KLOC/Expr5" output="log.txt"  /--> 
+		<!--ant dir="50KLOC/Expr6" output="log.txt" /--> 
+		<!--ant dir="50KLOC/Expr7" output="log.txt" /--> 
+		<!--ant dir="50KLOC/Expr8" output="log.txt" /--> 
+		<!--ant dir="50KLOC/Expr9" output="log.txt" /--> 
+		<!--ant dir="50KLOC/Expr10" output="log.txt" /--> 
+    </target>
+	<target name="Expr1">
+		<ant dir="50KLOC/Expr1" output="log.txt"  /> 
+	</target>
+	
+	<target name="Expr2">
+		<ant dir="50KLOC/Expr2" output="log.txt"  /> 
+	</target>
+	
+	<target name="Expr3">
+		<ant dir="50KLOC/Expr3" output="log.txt"  /> 
+	</target>
+	
+	
+	<target name="Expr4">
+		<ant dir="50KLOC/Expr4" output="log.txt"  /> 
+	</target>
+	
+	<target name="Expr5">
+		<ant dir="50KLOC/Expr5" output="log.txt"  /> 
+	</target>
+	
+	<target name="Expr6">
+		<ant dir="50KLOC/Expr6" output="log.txt"  /> 
+	</target>
+	
+	<target name="Expr7">
+		<ant dir="50KLOC/Expr7" output="log.txt"  /> 
+	</target>
+	
+	<target name="Expr8">
+		<ant dir="50KLOC/Expr8" output="log.txt"  /> 
+	</target>
+	
+	<target name="Expr9">
+		<ant dir="50KLOC/Expr9" output="log.txt"  /> 
+	</target>
+	
+	<target name="Expr10">
+		<ant dir="50KLOC/Expr10" output="log.txt"  /> 
+	</target>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</project>

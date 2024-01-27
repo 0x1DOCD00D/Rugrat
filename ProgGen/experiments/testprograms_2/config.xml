@@ -1,0 +1,25 @@
+<RUGRAT>
+<maxNestedIfs>60</maxNestedIfs>
+<noOfInterfaces>30</noOfInterfaces>
+<maxInheritanceDepth>10</maxInheritanceDepth>
+<maxNoOfParametersPerMethod>45</maxNoOfParametersPerMethod>
+<maxNoOfMethodsPerInterface>20</maxNoOfMethodsPerInterface>
+<maxAllowedMethodCalls>55</maxAllowedMethodCalls>
+<noOfClasses>100</noOfClasses>
+<totalLOC>100000</totalLOC>
+<maxRecursionDepth>58</maxRecursionDepth>
+<injectFilename>InjectFile</injectFilename>
+<maximumArraySize>1000</maximumArraySize>
+<classNamePrefix>BalaTest</classNamePrefix>
+<maxNoOfClassFields>100</maxNoOfClassFields>
+<maxNoOfMethodsPerClass>45</maxNoOfMethodsPerClass>
+<noOfInheritanceChains>3</noOfInheritanceChains>
+<probability>20</probability>
+<allowedTypes>
+	<type>short</type>
+	<type>int</type>
+	<type>float</type>
+	<type>double</type>
+	<type>Object</type>
+</allowedTypes>
+</RUGRAT>

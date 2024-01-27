@@ -1,0 +1,38 @@
+<RUGRAT>
+<noOfInterfaces>7</noOfInterfaces>
+<useQueries>false</useQueries>
+<maxNoOfMethodsPerInterface>16</maxNoOfMethodsPerInterface>
+<noOfClasses>92</noOfClasses>
+<maxAllowedMethodCalls>2</maxAllowedMethodCalls>
+<injectFilename></injectFilename>
+<password></password>
+<maximumArraySize>5</maximumArraySize>
+<dbName></dbName>
+<noOfInheritanceChains>4</noOfInheritanceChains>
+<probability>20</probability>
+<maxNestedIfs>3</maxNestedIfs>
+<maxInheritanceDepth>2</maxInheritanceDepth>
+<maxNoOfParametersPerMethod>6</maxNoOfParametersPerMethod>
+<dbDriver></dbDriver>
+<totalLOC>10733</totalLOC>
+<maxRecursionDepth>2</maxRecursionDepth>
+<dbUsername></dbUsername>
+<classNamePrefix>jChecsRugrat</classNamePrefix>
+<maxNoOfClassFields>10</maxNoOfClassFields>
+<maxNoOfMethodsPerClass>26</maxNoOfMethodsPerClass>
+<recursionProbability>0</recursionProbability>
+<intMaxValue>100</intMaxValue>
+<queryFilename></queryFilename>
+<callType></callType>
+<allowedTypes>
+	<type>char</type>
+	<type>byte</type>
+	<type>short</type>
+	<type>int</type>
+	<type>long</type>
+	<type>float</type>
+	<type>double</type>
+	<type>String</type>
+	<type>Object</type>
+</allowedTypes>
+</RUGRAT>

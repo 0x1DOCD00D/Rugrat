@@ -1,0 +1,8 @@
+min=2;max=7
+google,http://www.google.com
+nytimes,http://www.nytimes.com
+yahoo,http://www.yahoo.com
+hotmail,http://www.hotmail.com
+picasa,http://www.picasa.com
+wired,http://www.wired.com
+engadget,http://www.engadget.com

@@ -1,0 +1,88 @@
+package com.rugrat.generated;
+
+public class TStart_L0_0{
+private static int f0;
+private static int f1;
+private static int f2;
+private static int f3;
+private static int f4;
+private static int f5;
+private static int f6;
+private static int f7;
+private static int f8;
+private static int f9;
+
+
+public static void entryMethod(int i0,int i1,int i2,int i3,int i4,int i5,int i6,int i7,int i8,int i9){
+f0 = i0;
+f1 = i1;
+f2 = i2;
+f3 = i3;
+f4 = i4;
+f5 = i5;
+f6 = i6;
+f7 = i7;
+f8 = i8;
+f9 = i9;
+TwoKLOC0.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC1.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC2.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC3.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC4.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC5.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC6.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC7.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC8.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC9.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC10.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC11.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC12.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC13.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC14.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC15.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC16.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC17.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC18.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC19.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC20.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC21.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC22.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC23.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC24.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC25.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC26.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC27.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC28.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC29.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC30.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC31.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC32.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC33.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC34.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC35.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC36.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC37.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC38.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC39.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC40.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC41.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC42.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC43.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC44.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC45.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC46.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC47.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC48.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC49.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC50.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC51.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC52.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC53.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC54.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC55.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC56.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC57.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC58.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+TwoKLOC59.singleEntry(f0,f1,f2,f3,f4,f5,f6,f7,f8,f9);
+}
+}

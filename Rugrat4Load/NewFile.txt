@@ -1,0 +1,24 @@
+private BufferedWriter bufferedWriter = null;
+private BufferedReader bufferedReader = null;
+private static int lineCount = 0;
+
+private File getNextFile(String logfile, String defaultFile) {
+	File file = null;
+	try{
+		bufferedReader = new BufferedReader(new FileReader(logfile));
+		String line = null;
+		int breakPoint = 0;
+		while((line = bufferedReader.readLine()) != null && breakPoint <= lineCount ) {
+			breakPoint++;
+		}
+		lineCount++;
+		file = new File(line);
+		if(file.exists()) {
+			return file;
+		}
+	}
+	catch(IOException e) {
+		e.printStackTrace();
+	}
+	return new File(defaultFile);
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4"
+   xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+   http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+<display-name>AjaxWebGen</display-name>
+    <!-- SweetDEV RIA Listener initialization -->
+    <listener>
+        <listener-class>com.ideo.sweetdevria.webapp.RiaLoaderListener</listener-class>
+    </listener>
+    
+    <filter>
+        <filter-name>BrowserCacheFilter</filter-name>
+        <filter-class>com.ideo.jso.filter.BrowserCacheFilter</filter-class>
+    </filter>
+        <filter-mapping>
+        <filter-name>BrowserCacheFilter</filter-name>
+        <url-pattern>*.js</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>BrowserCacheFilter</filter-name>
+        <url-pattern>*.css</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>BrowserCacheFilter</filter-name>
+        <url-pattern>*.jpg</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>BrowserCacheFilter</filter-name>
+        <url-pattern>*.gif</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>BrowserCacheFilter</filter-name>
+        <url-pattern>*.png</url-pattern>
+    </filter-mapping>
+    
+    <!-- SweetDEV RIA generic controller -->
+    <servlet>
+        <servlet-name>SweetDevRiaServlet</servlet-name>
+        <servlet-class>com.ideo.sweetdevria.servlet.SweetDevRiaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SweetDevRiaResourcesProvider</servlet-name>
+        <servlet-class>com.ideo.sweetdevria.servlet.SweetDevRiaResourcesProvider</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>jso</servlet-name>
+        <servlet-class>com.ideo.jso.servlet.JsoServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>SweetDevRiaServlet</servlet-name>
+        <url-pattern>/RiaController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SweetDevRiaResourcesProvider</servlet-name>
+        <url-pattern>/resources/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>jso</servlet-name>
+        <url-pattern>/jso/*</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Wrapper Servlet -->
+    <servlet>
+        <servlet-name>ajaxJspServlet</servlet-name>
+        <servlet-class>AjaxJspServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+            <servlet-name>ajaxJspServlet</servlet-name>
+        <url-pattern>/ajaxJspServlet</url-pattern>
+    </servlet-mapping>
+    
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>

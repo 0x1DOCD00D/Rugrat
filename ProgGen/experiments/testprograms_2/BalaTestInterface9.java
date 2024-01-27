@@ -1,0 +1,19 @@
+package com.accenture.lab.carfast.test;
+
+
+public interface BalaTestInterface9
+{
+public short BalaTestInterface9Method0(int recursionCounter, int var1);
+public short BalaTestInterface9Method1(int recursionCounter, int var1, float var2, int var3, BalaTest78 var4, float var5, BalaTest51 var6, float var7, float var8, double var9, double var10, BalaTest83 var11, float var12, float var13, int var14, BalaTest98 var15, int var16, short var17, double var18, short var19, double var20, double var21, double var22, BalaTest90 var23, BalaTest3 var24);
+public float BalaTestInterface9Method2(int recursionCounter, BalaTest9 var1, double var2, double var3, BalaTest5 var4, int var5, BalaTest16 var6, short var7, BalaTest51 var8, BalaTest84 var9, BalaTest64 var10, float var11, BalaTest9 var12, float var13, BalaTest89 var14, int var15, short var16, float var17, float var18, short var19, int var20, int var21, int var22, short var23, short var24, int var25, float var26, float var27, float var28, float var29, float var30, BalaTest83 var31, float var32, float var33);
+public int BalaTestInterface9Method3(int recursionCounter, short var1, short var2, int var3, short var4, short var5, BalaTest49 var6, BalaTest15 var7, double var8, BalaTest25 var9, BalaTest70 var10, BalaTest24 var11, short var12, short var13, BalaTest70 var14, float var15, float var16);
+public Object BalaTestInterface9Method4(int recursionCounter, int var1, int var2, double var3, float var4);
+public short BalaTestInterface9Method5(int recursionCounter, double var1, BalaTest57 var2, double var3, short var4, int var5, BalaTest70 var6, int var7, double var8, short var9, short var10);
+public double BalaTestInterface9Method6(int recursionCounter, int var1, BalaTest73 var2, double var3, int var4, double var5, short var6, short var7, int var8, int var9, float var10, double var11);
+public int BalaTestInterface9Method7(int recursionCounter, BalaTest48 var1, BalaTest98 var2, BalaTest55 var3, short var4);
+public short BalaTestInterface9Method8(int recursionCounter, float var1, short var2, int var3, int var4, short var5, float var6);
+public short BalaTestInterface9Method9(int recursionCounter, float var1, float var2, BalaTest61 var3, short var4, double var5, double var6, float var7, short var8, double var9, short var10, int var11, short var12, double var13, short var14, int var15, int var16);
+public short BalaTestInterface9Method10(int recursionCounter, short var1, short var2, double var3, double var4, float var5, short var6, int var7, int var8, short var9, int var10, BalaTest59 var11, short var12, double var13, int var14, short var15, float var16, BalaTest97 var17, float var18, BalaTest79 var19, short var20, float var21, BalaTest22 var22, short var23, int var24, double var25, float var26, float var27, int var28, int var29, float var30, int var31, BalaTest29 var32, short var33, float var34, double var35, short var36, short var37, float var38, BalaTest95 var39);
+public int BalaTestInterface9Method11(int recursionCounter, int var1, double var2, short var3, BalaTest74 var4, double var5, BalaTest83 var6);
+public Object BalaTestInterface9Method12(int recursionCounter, float var1, float var2, BalaTest12 var3, short var4, double var5, double var6, double var7, float var8, short var9, short var10, int var11, double var12, float var13, double var14, int var15, short var16, int var17, short var18, float var19, double var20, BalaTest27 var21, double var22, BalaTest26 var23, float var24, int var25, float var26, short var27, float var28, double var29, BalaTest70 var30, float var31, BalaTest51 var32, float var33, float var34, int var35, short var36, BalaTest49 var37, short var38, double var39, int var40);
+}

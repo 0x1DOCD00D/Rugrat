@@ -1,0 +1,32 @@
+<RUGRAT>
+<noOfInterfaces>5</noOfInterfaces>
+<useQueries>false</useQueries>
+<maxNoOfMethodsPerInterface>2</maxNoOfMethodsPerInterface>
+<noOfClasses>100</noOfClasses>
+<maxAllowedMethodCalls>5</maxAllowedMethodCalls>
+<injectFilename>InjectFile</injectFilename>
+<password>mysql@321#</password>
+<maximumArraySize>30</maximumArraySize>
+<dbName>test</dbName>
+<noOfInheritanceChains>10</noOfInheritanceChains>
+<probability>18</probability>
+<maxNestedIfs>5</maxNestedIfs>
+<maxInheritanceDepth>7</maxInheritanceDepth>
+<maxNoOfParametersPerMethod>30</maxNoOfParametersPerMethod>
+<dbDriver>com.mysql.jdbc.Driver</dbDriver>
+<totalLOC>100000</totalLOC>
+<maxRecursionDepth>5</maxRecursionDepth>
+<dbUsername>balamurugan</dbUsername>
+<classNamePrefix>CarFast</classNamePrefix>
+<maxNoOfClassFields>30</maxNoOfClassFields>
+<maxNoOfMethodsPerClass>30</maxNoOfMethodsPerClass>
+<recursionProbability>15</recursionProbability>
+<intMaxValue>20000</intMaxValue>
+<queryFilename>QueryFile</queryFilename>
+<callType>MCO2_1</callType>
+<allowedTypes>
+	<type>int</type>
+	<type>String</type>
+	<type>Object</type>
+</allowedTypes>
+</RUGRAT>
